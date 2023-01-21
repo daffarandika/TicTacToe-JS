@@ -1,0 +1,11 @@
+        #root {
+            height: 325px;
+            width: 321px;
+            border-style: solid;
+        }
+        .panel {
+            margin: 1px;
+            height: 100px;
+            width: 100px;
+            border-style: solid;
+        }
