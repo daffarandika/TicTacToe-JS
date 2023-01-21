@@ -1,11 +1,31 @@
-        #root {
-            height: 325px;
-            width: 321px;
-            border-style: solid;
-        }
-        .panel {
-            margin: 1px;
-            height: 100px;
-            width: 100px;
-            border-style: solid;
-        }
+body {
+    display:flex;
+    justify-content: center;
+}
+#root {
+    height: 325px;
+    width: 321px;
+    border-style: solid;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.panel {
+    margin: 1px;
+    height: 100px;
+    width: 100px;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+#pieceO {
+    color: blue;
+}
+
+#pieceX {
+    color: red;
+}
